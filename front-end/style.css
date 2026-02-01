@@ -162,7 +162,7 @@ body {
 }
 /*Choose us section styling*/
 
-/*Choose us grid styling*/
+/*Choose us grid section styling*/
 .choose-us-grid-container {
   display: flex;
   justify-content: center;
@@ -206,9 +206,9 @@ body {
   color: #757677;
   letter-spacing: 1px;
 }
-/*Choose us grid styling*/
+/*Choose us grid  section styling*/
 
-/*Finance now styling*/
+/*Finance now section styling*/
 .finance-now-container {
   display: flex;
   flex-direction: column;
@@ -217,12 +217,12 @@ body {
   background: #070726;
   margin-top: 3rem;
   width: 100%;
-  background: #0a0000;
+  background: #101828;
   background: linear-gradient(
     90deg,
-    rgba(10, 0, 0, 1) 6%,
-    rgba(36, 0, 0, 1) 49%,
-    rgba(10, 0, 0, 1) 94%
+    rgba(16, 24, 40, 1) 6%,
+    rgba(59, 18, 18, 1) 49%,
+    rgba(16, 24, 40, 1) 94%
   );
 
   color: #ffff;
@@ -269,4 +269,66 @@ body {
     rgba(0, 0, 0, 0.17) 0px 12px 13px,
     rgba(0, 0, 0, 0.09) 0px -3px 5px;
 }
-/*Finance now styling*/
+/*Finance now section styling*/
+
+/*Footer styling*/
+footer {
+  background-color: #101828;
+}
+
+.car-red {
+  color: #db0f31;
+  font-size: 1.25rem;
+}
+
+footer hr {
+  color: #ffff;
+  margin: 1.1rem;
+  width: 50%;
+  margin: 0 auto;
+  border: none;
+}
+
+.footer-container {
+  display: flex;
+  align-items: center;
+  justify-items: center;
+  justify-content: space-around;
+  color: #ffff;
+  margin: auto;
+  padding: 15px;
+}
+
+.footer-item-title {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.footer-item-content {
+  letter-spacing: 1px;
+  color: #757677;
+}
+
+.footer-copyright {
+  color: #ffff;
+  text-align: center;
+  padding: 15px;
+}
+
+.footer-item-content ul {
+  list-style-type: none;
+}
+
+.footer-item-content li {
+  padding: 10px;
+}
+
+.footer-item-content a {
+  text-decoration: none;
+  letter-spacing: 1px;
+  color: #757677;
+}
+/*Footer styling*/
