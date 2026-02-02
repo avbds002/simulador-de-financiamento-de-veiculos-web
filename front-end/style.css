@@ -5,16 +5,16 @@
   font-family: "Inter", sans-serif;
 }
 
-body {
-  background-color: #edf0f4;
-}
-
 /*Header styling*/
 .header-container {
   display: flex;
   align-items: center;
   justify-content: space-around;
   padding: 1rem;
+}
+
+.menu-icon {
+  display: none;
 }
 /*Header styling*/
 
@@ -28,12 +28,13 @@ body {
 
 .car-large {
   color: #db0f31;
-  font-size: 2rem;
+  font-size: 1.5rem;
 }
 
 .logo-text {
+  color: #101828;
   font-weight: 600;
-  font-size: 2rem;
+  font-size: 1.5rem;
 }
 
 .home-color {
@@ -41,17 +42,17 @@ body {
 }
 
 .navbar-links {
+  font-weight: 450;
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 1rem;
+  gap: 2rem;
   list-style-type: none;
 }
 
 .navbar-item {
-  font-weight: 500;
   color: #757677;
-  font-size: 17px;
+  font-size: 0.9rem;
   text-decoration: none;
 }
 
@@ -73,7 +74,8 @@ body {
 
 .hero-text-container {
   display: flex;
-  height: 50vh;
+  height: 50%;
+  align-items: center;
   justify-content: center;
 }
 
@@ -141,6 +143,7 @@ body {
   display: flex;
   width: 100%;
   flex-direction: column;
+  align-items: center;
   justify-content: center;
 }
 
@@ -151,6 +154,7 @@ body {
 }
 
 .choose-us-title {
+  color: #101828;
   font-size: 2rem;
   margin-bottom: 1.25rem;
 }
@@ -166,8 +170,8 @@ body {
 .choose-us-grid-container {
   display: flex;
   justify-content: center;
+  align-items: center;
   flex-wrap: wrap;
-  padding: 0.75rem;
   gap: 1.2rem;
 }
 
@@ -186,7 +190,7 @@ body {
 .choose-us-card-icon {
   border: 0.5px solid none;
   border-radius: 10px;
-  background-color: #db0f31;
+  background-color: #ffe2e2;
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
   width: 20%;
   text-align: center;
@@ -197,7 +201,12 @@ body {
   margin-bottom: 20px;
 }
 
+.red-icon {
+  color: #e7000b;
+}
+
 .choose-us-card-title {
+  color: #101828;
   margin-bottom: 20px;
   font-size: 1.1rem;
 }
@@ -240,6 +249,7 @@ body {
 }
 
 .finance-now-paragraph {
+  font-weight: 300;
   letter-spacing: 1px;
   font-size: 1.1rem;
 }
@@ -247,7 +257,7 @@ body {
 .finance-now-button {
   background-color: #f50000;
   border-radius: 10px;
-  margin: 1.3rem;
+  margin: 2rem auto;
   text-align: center;
 }
 .finance-now-button:hover {
@@ -332,3 +342,121 @@ footer hr {
   color: #757677;
 }
 /*Footer styling*/
+
+/*Responsive medias*/
+
+@media (max-width: 440px) {
+  /*Responsive header styling*/
+  .header-container {
+    justify-content: space-evenly;
+  }
+
+  .logo {
+    gap: 0.5rem;
+  }
+
+  .menu-icon {
+    font-size: 1.5rem;
+    font-weight: 450;
+    display: block;
+    color: #101828;
+  }
+
+  .header-navbar {
+    display: none;
+  }
+  /*Responsive header styling*/
+
+  /*Responsive Hero section styling*/
+  .hero-title {
+    font-size: 1.5rem;
+  }
+
+  .hero-paragraph {
+    font-size: 0.75rem;
+  }
+
+  .hero-buttons {
+    flex-direction: column;
+  }
+
+  .hero-buttons button {
+    width: 100%;
+    font-size: 0.7rem;
+    padding: 10px;
+  }
+  /*Responsive Hero section styling*/
+
+  /*Responsive Choose us section styling*/
+  .choose-us-container {
+    flex-direction: column;
+  }
+
+  .choose-us-title {
+    font-size: 1.5rem;
+  }
+
+  .choose-us-paragraph {
+    font-size: 0.9rem;
+  }
+
+  .choose-us-card {
+    width: 300px;
+  }
+
+  .choose-us-card-title {
+    font-size: 0.9rem;
+  }
+
+  .choose-us-card-paragraph {
+    font-size: 0.8rem;
+  }
+
+  .choose-us-card-icon {
+    width: 15%;
+    padding: 8px;
+    font-size: 16px;
+  }
+  /*Responsive Choose us section styling*/
+
+  /*Responsive Finance now section styling*/
+  .finance-now-title {
+    font-size: 1.25rem;
+  }
+
+  .finance-now-paragraph {
+    font-size: 0.8rem;
+  }
+
+  .finance-now-button button {
+    font-size: 0.8rem;
+    padding: 16px;
+  }
+  /*Responsive Finance now section styling*/
+
+  /*Responsive Footer section styling*/
+  .footer-container {
+    justify-content: flex-start;
+    flex-direction: column;
+    padding: 12px;
+  }
+
+  .footer-item-title {
+    font-size: 1rem;
+  }
+
+  .footer-item-content {
+    font-size: 0.8rem;
+    margin-bottom: 10px;
+  }
+
+  .footer-item-content li {
+    padding: 5px;
+  }
+
+  .footer-copyright {
+    font-size: 0.8rem;
+  }
+  /*Responsive Footer section styling*/
+}
+/*Responsive medias*/
