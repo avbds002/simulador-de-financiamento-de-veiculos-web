@@ -1,0 +1,175 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+}
+
+/*Header styling*/
+.header-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 1rem;
+}
+
+.menu-icon {
+  display: none;
+}
+/*Header styling*/
+
+/*Navbar styling*/
+.logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.car-large {
+  color: #db0f31;
+  font-size: 1.5rem;
+}
+
+.logo-text {
+  color: #101828;
+  font-weight: 600;
+  font-size: 1.5rem;
+}
+
+.home-color {
+  color: #db0f31;
+}
+
+.navbar-links {
+  font-weight: 450;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+  list-style-type: none;
+}
+
+.navbar-item {
+  color: #757677;
+  font-size: 0.9rem;
+  text-decoration: none;
+}
+
+.navbar-item:hover {
+  transition: all 0.3s ease;
+  color: #db0f31;
+}
+/*Navbar styling*/
+
+/*Vehicle catalog title section styling*/
+.vehicle-catalog-text-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  width: 100%;
+  height: 20vh;
+  background-color: #f5f8fa;
+}
+
+.vehicle-catalog-text-title {
+  margin-bottom: 0.8rem;
+  font-size: 1.5rem;
+  color: #101828;
+}
+
+.vehicle-catalog-text-paragraph {
+  color: #757677;
+  letter-spacing: 1px;
+}
+/*Vehicle catalog title section styling*/
+
+/*Filter search section styling*/
+.filter-search-container {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid black;
+  border-radius: 10px;
+  padding: 20px;
+  margin: 30px auto;
+  width: 60%;
+}
+
+.filter-icon-container {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 5px;
+}
+
+.filter-search-form {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 30px;
+}
+/*Filter search section styling*/
+
+/*Footer styling*/
+footer {
+  background-color: #101828;
+}
+
+.car-red {
+  color: #db0f31;
+  font-size: 1.25rem;
+}
+
+footer hr {
+  color: #ffff;
+  margin: 1.1rem;
+  width: 50%;
+  margin: 0 auto;
+  border: none;
+}
+
+.footer-container {
+  display: flex;
+  align-items: center;
+  justify-items: center;
+  justify-content: space-around;
+  color: #ffff;
+  margin: auto;
+  padding: 15px;
+}
+
+.footer-item-title {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.footer-item-content {
+  letter-spacing: 1px;
+  color: #757677;
+}
+
+.footer-copyright {
+  color: #ffff;
+  text-align: center;
+  padding: 15px;
+}
+
+.footer-item-content ul {
+  list-style-type: none;
+}
+
+.footer-item-content li {
+  padding: 10px;
+}
+
+.footer-item-content a {
+  text-decoration: none;
+  letter-spacing: 1px;
+  color: #757677;
+}
+/*Footer styling*/
