@@ -11,6 +11,8 @@
   align-items: center;
   justify-content: space-around;
   padding: 1rem;
+  border: 1px solid none;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 
 .menu-icon {
@@ -90,11 +92,12 @@
 .filter-search-container {
   display: flex;
   flex-direction: column;
-  border: 1px solid black;
+  border: 1px solid none;
   border-radius: 10px;
   padding: 20px;
   margin: 30px auto;
   width: 60%;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 
 .filter-icon-container {
@@ -109,9 +112,58 @@
   display: flex;
   justify-content: flex-start;
   align-items: center;
-  gap: 30px;
+  gap: 10px;
 }
+
+.filter-search-form div {
+  width: 40%;
+}
+
+.filter-search-form input,
+select {
+  width: 100%;
+  border-radius: 8px;
+  border: 1px solid #757677;
+  padding: 10px;
+}
+
+.filter-search-form input:hover {
+  border-color: #db0f31;
+}
+
+.filter-search-form select:hover {
+  border-color: #db0f31;
+}
+
 /*Filter search section styling*/
+
+/*Vehicle catalog grid styling*/
+.vehicle-catalog-grid {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 70%;
+  gap: 10px;
+  margin: 2rem auto;
+  align-items: center;
+  justify-content: center;
+}
+
+.vehicle-card-container {
+  border: 1px solid black;
+  border-radius: 10px;
+  height: 18rem;
+  width: 14rem;
+  margin: 1.1rem;
+  padding: 10px;
+}
+
+.vehicle-card-image-top {
+  overflow: hidden;
+  background-image: url("../assets/item-carro1.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+/*Vehicle catalog grid styling*/
 
 /*Footer styling*/
 footer {
