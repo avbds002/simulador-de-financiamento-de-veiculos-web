@@ -137,33 +137,122 @@ select {
 
 /*Filter search section styling*/
 
-/*Vehicle catalog grid styling*/
-.vehicle-catalog-grid {
+/*Vehicle catalog styling*/
+.container-flex {
   display: flex;
   flex-wrap: wrap;
-  max-width: 70%;
-  gap: 10px;
-  margin: 2rem auto;
+  gap: 20px;
   align-items: center;
   justify-content: center;
+  margin: 0 auto;
+  max-width: 80%;
 }
 
-.vehicle-card-container {
-  border: 1px solid black;
-  border-radius: 10px;
-  height: 18rem;
-  width: 14rem;
-  margin: 1.1rem;
-  padding: 10px;
+.card {
+  width: 350px;
+  background: white;
+  border-radius: 20px;
+  overflow: hidden; /* Garante que a imagem respeite o arredondamento */
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
 }
 
-.vehicle-card-image-top {
-  overflow: hidden;
-  background-image: url("../assets/item-carro1.jpg");
-  background-size: cover;
-  background-repeat: no-repeat;
+/* Header e Imagem */
+.card-header {
+  position: relative;
+  width: 100%;
+  height: 220px;
 }
-/*Vehicle catalog grid styling*/
+
+.card-header img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* Etiquetas (Badges) */
+.badges {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  display: flex;
+  gap: 10px;
+}
+
+.badge {
+  padding: 8px 16px;
+  border-radius: 25px;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.badge-white {
+  background: white;
+  color: #333;
+}
+.badge-red {
+  background: #e60000;
+  color: white;
+}
+
+/* Corpo do Texto */
+.card-body {
+  padding: 20px;
+}
+
+.title {
+  margin: 0;
+  font-size: 24px;
+  color: #101828;
+}
+
+.subtitle {
+  letter-spacing: 1px;
+  color: #666;
+  margin: 5px 0 15px 0;
+}
+
+hr {
+  border: 0;
+  border-top: 1px solid #eee;
+  margin-bottom: 15px;
+}
+
+/* Preço */
+.price-container {
+  color: #e60000;
+  font-weight: bold;
+  font-size: 28px;
+}
+
+.currency {
+  font-size: 18px;
+  margin-right: 5px;
+}
+
+/* Botão */
+.card-footer {
+  padding: 0 20px 20px 20px;
+}
+
+.btn-finance {
+  width: 100%;
+  padding: 15px;
+  background-color: #e60000;
+  color: white;
+  border: none;
+  border-radius: 12px;
+  font-size: 18px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: transform 0.2s;
+}
+
+.btn-finance:hover {
+  transform: scale(1.02);
+  background-color: #cc0000;
+}
+
+/*Vehicle catalog styling*/
 
 /*Footer styling*/
 footer {
