@@ -96,7 +96,7 @@
   border-radius: 10px;
   padding: 20px;
   margin: 30px auto;
-  width: 60%;
+  width: 70%;
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 
@@ -315,3 +315,62 @@ footer hr {
   color: #757677;
 }
 /*Footer styling*/
+
+/*Responsive section*/
+@media (max-width: 490px) {
+  /*Responsive header styling*/
+  .header-container {
+    justify-content: space-evenly;
+  }
+
+  .logo {
+    gap: 0.5rem;
+  }
+
+  .menu-icon {
+    font-size: 1.5rem;
+    font-weight: 450;
+    display: block;
+    color: #101828;
+  }
+
+  .header-navbar {
+    display: none;
+  }
+  /*Responsive header styling*/
+
+  /*Responsive vehicle catalog title*/
+  .vehicle-catalog-text-title {
+    font-size: 1rem;
+  }
+
+  .vehicle-catalog-text-paragraph {
+    font-size: 0.8rem;
+  }
+  /*Responsive vehicle catalog title*/
+
+  /*Responsive Footer section styling*/
+  .footer-container {
+    justify-content: flex-start;
+    flex-direction: column;
+    padding: 12px;
+  }
+
+  .footer-item-title {
+    font-size: 1rem;
+  }
+
+  .footer-item-content {
+    font-size: 0.8rem;
+    margin-bottom: 10px;
+  }
+
+  .footer-item-content li {
+    padding: 5px;
+  }
+
+  .footer-copyright {
+    font-size: 0.8rem;
+  }
+  /*Responsive Footer section styling*/
+}
