@@ -349,6 +349,32 @@ footer hr {
   }
   /*Responsive vehicle catalog title*/
 
+  /*Responsive filter search*/
+
+  /*Responsive filter search*/
+
+  /*Responsive vehicle card section*/
+  .title {
+    font-size: 18px;
+  }
+
+  .subtitle {
+    font-size: 12px;
+  }
+
+  .price {
+    font-size: 18px;
+  }
+
+  .currency {
+    font-size: 14px;
+  }
+
+  .btn-finance {
+    font-size: 14px;
+  }
+  /*Responsive vehicle card section*/
+
   /*Responsive Footer section styling*/
   .footer-container {
     justify-content: flex-start;
