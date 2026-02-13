@@ -317,7 +317,7 @@ footer hr {
 /*Footer styling*/
 
 /*Responsive section*/
-@media (max-width: 490px) {
+@media (max-width: 550px) {
   /*Responsive header styling*/
   .header-container {
     justify-content: space-evenly;
@@ -350,7 +350,13 @@ footer hr {
   /*Responsive vehicle catalog title*/
 
   /*Responsive filter search*/
+  .filter-search-form {
+    flex-direction: column;
+  }
 
+  .filter-search-form div {
+    width: 100%;
+  }
   /*Responsive filter search*/
 
   /*Responsive vehicle card section*/
@@ -359,6 +365,10 @@ footer hr {
   }
 
   .subtitle {
+    font-size: 12px;
+  }
+
+  .badge {
     font-size: 12px;
   }
 
@@ -373,6 +383,7 @@ footer hr {
   .btn-finance {
     font-size: 14px;
   }
+
   /*Responsive vehicle card section*/
 
   /*Responsive Footer section styling*/
